@@ -78,6 +78,9 @@ function App() {
 
   return (
     <div className="container">
+      <a href="intent://wallet/#Intent;scheme=https;package=com.google.android.apps.walletnfcrel;S.card_id=YOUR_CARD_ID;end">
+        wallet
+      </a>
       <h1 className="text-center">Wordle by <a href="https://github.com/Guuri11" target="_blank" className="text-blue" rel="noreferrer">Guuri11</a></h1>
       <div className="flex justify-center">
         <Table />
